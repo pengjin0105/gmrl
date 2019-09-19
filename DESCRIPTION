@@ -1,12 +1,13 @@
 Package: gmrl
 Type: Package
-Title: estimate parameters generalized mean residual life models
-Version: 0.1.0
+Title: generalized mean residual life models
+Version: 1.0
 Author: Peng Jin and Mengling Liu
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Maintainer: Peng Jin <pj691@nyu.edu>
+Description: estimate parameters in mean residual life models.
+    The package support proportional MRL model and additive MRL model.
+License: GPL-2
 Encoding: UTF-8
+Imports: stats,survival
 LazyData: true
 RoxygenNote: 6.1.1

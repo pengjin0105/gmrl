@@ -12,7 +12,7 @@
 #' @example
 
 
-J_mat = function(data_order,z_mat,beta0,model='exp'){
+J_mat = function(data_order,z_mat,beta0,model){
   col = ncol(z_mat)
   h = matrix(NA,nrow = col, ncol = col)
   for(u in 1:col){

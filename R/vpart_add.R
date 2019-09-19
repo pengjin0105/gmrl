@@ -29,12 +29,12 @@ vpart_add = function(data_order,z_mat,beta0){
   z_tild[is.na(z_tild)] = 0
 
   # start estiamte A and Sigma
-  A = matrix(0,2,2)
-  v = matrix(0,2,2)
-  vpart1 = matrix(0,2,2)
-  vpart2 = matrix(0,1,2)
-  vpart2_1 = matrix(0,2,2)
-  vpart2_2 = matrix(0,1,2)
+  A = matrix(0,col,col)
+  v = matrix(0,col,col)
+  vpart1 = matrix(0,col,col)
+  vpart2 = matrix(0,1,col)
+  vpart2_1 = matrix(0,col,col)
+  vpart2_2 = matrix(0,1,col)
   for(k in 1:n){
     Z = z_mat[k,]
     A_tmp1 = matrix(rep(Z,each=n),n) - z_bar

@@ -4,14 +4,21 @@
 \alias{est_beta}
 \title{main function}
 \usage{
-est_beta(data_order, z_mat, model = "exp")
+est_beta(time,delta,vars,wt,model,se.cal)
 }
 \arguments{
-\item{data_order}{a ordered dataset by observed time}
+\item{time}{time}
 
-\item{z_mat}{covariate matrix}
+\item{delta}{censoring indicator}
+
+\item{vars}{covariate matrix}
+
+\item{wt}{weight}
 
 \item{model}{specify model type}
+
+\item{se.cal}{choose whether need to calculate standard error}
+
 }
 \value{
 estimates and standard error of parameters

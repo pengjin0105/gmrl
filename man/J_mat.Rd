@@ -4,7 +4,7 @@
 \alias{J_mat}
 \title{Jacobian matrix calculation}
 \usage{
-J_mat(data_order, z_mat, beta0, model = "exp")
+J_mat(data_order, z_mat, beta0, model)
 }
 \arguments{
 \item{data_order}{a ordered dataset by observed time}
