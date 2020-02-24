@@ -7,7 +7,7 @@
 ub_add(data_order, z_mat, beta0, u, be)
 }
 \arguments{
-\item{data_order}{a ordered dataset by observed time}
+\item{data_order}{dataset ordered by observed time}
 
 \item{z_mat}{covariate matrix}
 

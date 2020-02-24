@@ -7,17 +7,17 @@
 est_beta(time,delta,vars,wt,model,se.cal)
 }
 \arguments{
-\item{time}{time}
+\item{time}{observed time}
 
-\item{delta}{censoring indicator}
+\item{delta}{censoring indicator with 1=case and 0=censored subject}
 
 \item{vars}{covariate matrix}
 
 \item{wt}{weight}
 
-\item{model}{specify model type}
+\item{model}{specify model type (currently support proportional MRL model and additive MRL model)}
 
-\item{se.cal}{choose whether need to calculate standard error}
+\item{se.cal}{choose whether need to calculate standard error (direct estimates)}
 
 }
 \value{
