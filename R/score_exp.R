@@ -27,7 +27,7 @@ score_exp = function(data_order,z_mat,beta0){
   part1 = hat_m0*data_order$delta*(z_mat-z_bar)
   part1[is.na(part1)] = 0
   part2 = (z_mat*data_order$obs_time-apply(zpart,2,cumsum))
-  part2 = part2*matrix(rep(exp_part,each=col), ncol=col, byrow=TRUE)
+  part2 = part2*c(exp_part)
   part2[is.na(part2)] = 0
   return(colMeans(data_order$pi*(part1-part2)))
 }

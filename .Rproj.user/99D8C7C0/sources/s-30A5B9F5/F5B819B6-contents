@@ -26,5 +26,5 @@ score_add = function(data_order,z_mat,beta0){
   z_bar[is.na(z_bar)] = 0
   u_tmp1 = data_order$pi*(hat_m0+z_mat%*%beta0)*data_order$delta
   u_tmp = t(u_tmp1)%*%(z_mat-z_bar)
-  return(u_tmp/n)
+  return(u_tmp/sqrt(n))
 }

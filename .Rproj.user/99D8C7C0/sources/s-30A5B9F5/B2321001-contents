@@ -5,7 +5,7 @@
 #' @param z_mat covariate matrix
 #' @param beta0 parameter coefficients
 #' @param model specify additive or proportional MRL model
-#' @return jacobian matrix for applying the Newton's method
+#' @return jacobian matrix
 #' @author Peng Jin and Mengling Liu
 #' @references
 #' @export

@@ -1,10 +1,10 @@
 #' standard error of estimated parameters
 #'
 #'
-#' @param data_order data ordered by observed time
+#' @param data_order a ordered dataset by observed time
 #' @param z_mat covariate matrix
 #' @param beta0 parameter coefficients
-#' @return SEs of estimator (direct estimates)
+#' @return SEs of estimator
 #' @author Peng Jin and Mengling Liu
 #' @references
 #' @export

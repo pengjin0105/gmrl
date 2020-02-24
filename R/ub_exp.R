@@ -6,7 +6,7 @@
 #' @param beta0 parameter coefficients
 #' @param u uth number of parameters
 #' @param be bth number of parameters
-#' @return derivative of dudb
+#' @return element of Jacobian matrix
 #' @author Peng Jin and Mengling Liu
 #' @references
 #' @export
